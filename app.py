@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-# આ સેટિંગ કરવાથી ફ્લાસ્ક મુખ્ય ફોલ્ડરમાંથી જ ફાઈલ ઉપાડી લેશે
+
 app = Flask(__name__, template_folder='.')
 
 @app.route('/')
